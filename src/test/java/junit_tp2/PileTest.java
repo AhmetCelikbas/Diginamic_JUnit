@@ -26,8 +26,6 @@ public class PileTest {
 		assertNotNull(pile.peek());
 	}
 	
-
-	
 	@Test
 	public void unlimitedPushTest() throws Exception {
 		pile.push("String1");
@@ -49,6 +47,7 @@ public class PileTest {
 		pile.push("String1");
 		pile.push("String2");
 		pile.push("String3");
+		pile.push("String4");
 	}
 	
 	@Test
@@ -58,7 +57,4 @@ public class PileTest {
 		pile.popAll();
 		assertEquals(pile.getSize(), 0, 0.0);
 	}
-	
-
-
 }
