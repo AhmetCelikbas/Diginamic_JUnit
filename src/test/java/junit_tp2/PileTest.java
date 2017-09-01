@@ -38,7 +38,7 @@ public class PileTest {
 		pile.push("String1");
 		pile.push("String2");
 		pile.pop();
-		assertEquals(pile.getSize(), 1, 0.0);
+		assertEquals(pile.getSize(), 2, 0.0);
 	}
 	
 	
